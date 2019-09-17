@@ -3,6 +3,9 @@
 A full Functioning Job Portal
 
 Features :  Dynamic Login System(Authorization)
+URl      :  http://byjus-application.herokuapp.com/
+
+                               /** New Features (Searching,Pagination) will be added Soon **/
            
            .Both Login and Register are curently in active(working fine)
                   Credentials
@@ -23,3 +26,6 @@ Features :  Dynamic Login System(Authorization)
 
            .Credentials
            (Time Spent -> 5hrs developing & 30min Deployment)
+           
+                                 /** New Features (Searching,Pagination) will be added Soon **/
+ 
