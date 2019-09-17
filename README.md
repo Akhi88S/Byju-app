@@ -2,12 +2,13 @@
 
 A full Functioning Job Portal
 
-Features :  Dynamic Login System(Authorization)
 URl      :  http://byjus-application.herokuapp.com/
-
+  
                                /** New Features (Searching,Pagination) will be added Soon **/
-           
-           .Both Login and Register are curently in active(working fine)
+                
+             Features :  Dynamic Login System(Authorization)
+    
+            .Both Login and Register are curently in active(working fine)
                   Credentials
                                  (
                                  Admin    : akhil@gmail.com
