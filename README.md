@@ -4,7 +4,6 @@ A full Functioning Job Portal
 
 URl      :  http://byjus-application.herokuapp.com/
   
-                               /** New Features (Searching,Pagination) will be added Soon **/
                 
              Features :  Dynamic Login System(Authorization)
     
