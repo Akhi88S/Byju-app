@@ -9,3 +9,5 @@ Features : . Dynamic Login System(Authorization)
                               -> Edit an Existing Job Post
                               -> Delete an existing Job post
            . User can view Job Posts based Upon Experience,Job Location, Skills & Job description
+           
+           (Time Spent -> 5hrs developing & 30min Deployment)
