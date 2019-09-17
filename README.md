@@ -8,11 +8,12 @@ URl      :  http://byjus-application.herokuapp.com/
              Features :  Dynamic Login System(Authorization)
     
             .Both Login and Register are curently in active(working fine)
-                  Credentials
-                                 (
+                
+                    Credentials
+                              (
                                  Admin    : akhil@gmail.com
                                  Password : 1
-                                 ) // General Users can register by clicking register and then can view Job Posts
+                              ) // General Users can register by clicking register and then can view Job Posts
                                  
            . Admin User and General Users with respective Permissions
            
