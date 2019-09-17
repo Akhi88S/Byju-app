@@ -1,0 +1,38 @@
+<% include ./partials/header %>
+
+<div class="ui main text container">
+<b>
+	<h3>
+	<div class="Content">Company:&nbsp&nbsp<%= blog.company %></div>
+	<div class="Content">Job Role&nbsp&nbsp:&nbsp&nbsp<%= blog.title %></div>
+</h3>
+</b>
+	<div class="ui top attached segment">
+		<div class="item">
+			<img class="ui centered rounded image" src="<%= blog.image %>"></img>
+<b>
+			<div class="content">
+				<span><%= blog.created.toDateString() %></span>
+
+			</div>
+</b>
+			<div class="description">
+				<p><%- blog.body%></p>	<!--What the - does is it takes blog.body and evaluates it as code-->
+			</div>
+<b>
+ <div class="content"> Location&nbsp&nbsp: &nbsp&nbsp<%= blog.location %></div>
+ <div class="content"> Experience&nbsp: <%= blog.Experience %></div>
+</b>
+<!--			  userid.forEach(function(i) { %>  -->
+		<!--		if(i==blog._id  || -->  <% if(currentUser=='akhil@gmail.com') { %>
+				<a class="ui orange basic button" href="/blogs/<%= blog._id %>/edit"> Edit </a>
+			<form id="delete" action="/blogs/<%= blog._id %>?_method=DELETE" method="POST">
+				<button class="ui red basic button">Delete</button>
+			</form>
+<% } %>
+		</div>
+	</div>
+
+</div>
+
+<% include ./partials/footer %>
